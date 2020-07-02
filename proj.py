@@ -7,6 +7,6 @@ else:
   print("x is n not equal to y")
   
 def myfunc():
-  n = input
+  n = input()
   return n * n
 myfunc()
