@@ -1,1 +1,4 @@
-william chukwu male green 
+first name = william
+last name = chukwu
+gender = male
+form = green

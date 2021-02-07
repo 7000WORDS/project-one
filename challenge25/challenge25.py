@@ -6,13 +6,13 @@ gender = input("gender: ")
 form = input("form class: ")
 
 
-d = open("mystuff.txt", "a+")
+d = open("mystuff.txt", "w+")
 
 
-d.write(first_name)
+d.write("first name = "+first_name + "\n")
 
-d.write(last_name) 
+d.write("last name = "+last_name + "\n")
 
-d.write(gender)
+d.write("gender = "+gender + "\n")
 
-d.write(form)
+d.write("form = "+form + "\n")
