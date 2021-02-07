@@ -1,0 +1,5 @@
+print("checklist for holiday")
+des = input("destination: ")
+packing = input("how many things do you need to pack: ")
+people = input("how many people are you bringing: ")
+buying = input("how many things are you buying: ")
