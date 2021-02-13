@@ -1,13 +1,14 @@
 from io import open
+from typing import ValuesView
 
-name = input("name: ")
-people = input("how many people are coming: ")
-tasks = input("how many things are you buying: ")
-clothes = input("how many clothes are you packing: ")
-currency = input("buy foreign currency: ")
-visa_up_date = input("Is your passport up to date: ")
+name = ("name: ")
+people = ("how many people are coming: ")
+tasks = ("how many things are you buying: ")
+clothes = ("how many clothes are you packing: ")
+currency = ("buy foreign currency: ")
+visa_up_date = ("Is your passport up to date: ")
 ticket = ("have you bought your ticket: ")
-f = open("holiday.txt","a")
+f = open("holiday.txt","a+")
 f . write(name + "\n")
 f . write(people + "\n")
 f . write(tasks + "\n")
@@ -16,10 +17,4 @@ f . write(currency + "\n")
 f . write(visa_up_date + "\n")
 f . write(ticket + "\n")
 
-print(f. readline())
-print(f.readline())
-print(f.readline())
-print(f.readline())
-print(f.readline())
-print(f.readline())
-print(f.readline())
+

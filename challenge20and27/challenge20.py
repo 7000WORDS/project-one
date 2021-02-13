@@ -1,4 +1,5 @@
 name = input("enter your name: ")
+name1 = "enter your name: "
 print("hello "+name)
 count = 0
 count = 1
@@ -18,3 +19,6 @@ def func():
     f.write("name: " + name + "\n")
     f.write("tries: " + str(count)+ "\n")
 func()
+
+t = [[x], [name1]]
+print(t[1])
